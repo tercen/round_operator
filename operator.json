@@ -1,10 +1,30 @@
 {
-  "name": "Median",
-  "description": "Return the medium value of a cell",
+  "name": "Round",
+  "description": "Rounding of numbers",
   "tags": ["basic statistics"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/template_operator"],
-  "properties": []
+  "urls": ["https://github.com/tercen/round_operator"],
+  "properties": [
+   {
+    "kind": "EnumeratedProperty",
+    "name": "method",
+    "defaultValue": "round",
+    "values": [
+      "round",
+      "floor",
+      "ceiling",
+      "trunc",
+      "signif"
+    ],
+    "description": "Rounding method"
+  },
+  {
+    "kind": "StringProperty",
+    "name": "digits",
+    "defaultValue": "0",
+    "description": "integer indicating the number of decimal places (round) or significant digits (signif) to be used."
+  }
+  ]
 }
 
 
