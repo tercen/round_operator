@@ -1,6 +1,6 @@
 {
   "name": "Round",
-  "description": "Rounding of numbers",
+  "description": "Adjusts cell values (up or down) to a specified base number.",
   "tags": ["data wrangling", "transform", "data transformation"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/round_operator"],
