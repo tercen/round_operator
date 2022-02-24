@@ -18,7 +18,9 @@ rnd <- function(y, method, digits) {
   return(out)
 }
 
-(ctx = tercenCtx())  %>% 
+ctx <- tercenCtx()
+
+ctx  %>% 
   select(.y, .ci, .ri) %>% 
   mutate(rounded = rnd(.y, method, digits)) %>%
   ctx$addNamespace() %>%
