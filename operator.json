@@ -80,7 +80,7 @@
         ]
       }
     ],
-    "outputSpecs": [
+    "outputSpecsV2": [
       {
         "kind": "OperatorJoinSpec",
         "joinOperators": [
